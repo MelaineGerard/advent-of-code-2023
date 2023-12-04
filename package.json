@@ -1,0 +1,24 @@
+{
+  "name": "advent_of_code_ts",
+  "version": "1.0.0",
+  "description": "Un projet pour faire les exercices de l'advent of code en typescript",
+  "main": "dist/Main.js",
+  "scripts": {
+    "start": "tsc && node dist/Main.js",
+    "build": "tsc",
+    "dev": "nodemon --exec \"npm start\" -e ts,js,json -w src"
+  },
+  "keywords": [],
+  "author": "Melaine Gérard <pro@melaine-gerard.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
